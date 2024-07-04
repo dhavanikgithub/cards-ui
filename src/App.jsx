@@ -84,7 +84,7 @@ const App = () => {
                 linerGradientEndColor={card.darkBRColor}
                 mainColor={card.darkMainColor}
                 contentTextColor='white'
-                titleTextColor={card.mainColor}
+                titleTextColor={card.darkMainColor}
               />
             )
           }
@@ -97,7 +97,7 @@ const App = () => {
                 linerGradientEndColor={card.brColor}
                 mainColor={card.mainColor}
                 contentTextColor='black'
-                titleTextColor={card.darkMainColor}
+                titleTextColor={card.mainColor}
               />
             )
           }
