@@ -175,7 +175,7 @@ const cardsData2 = [
         bgColor: 'rgba(250, 236, 234, 0.7)',
         brColor: 'rgb(241, 199, 192)',
         mainColor: '#dd7d6f',
-        darkMainColor: '#003130',
+        darkMainColor: '#dd7d6f',
         darkBGColor: '#261F1E',
         darkBRColor: '#003130'
     },
@@ -259,6 +259,15 @@ const cardsData2 = [
         darkMainColor: '#EA9161',
         darkBGColor: '#241E1A',
         darkBRColor: '#4E3223'
+    },
+    {
+        id: 30,
+        bgColor: 'rgba(252, 239, 232, 0.7)',
+        brColor: 'rgb(246, 207, 187)',
+        mainColor: '#00ED64',
+        darkMainColor: '#00ED64',
+        darkBGColor: '#241E1A',
+        darkBRColor: '#023430'
     },
 ];
 
