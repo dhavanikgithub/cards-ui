@@ -269,6 +269,33 @@ const cardsData2 = [
         darkBGColor: '#241E1A',
         darkBRColor: '#023430'
     },
+    {
+        id: 31,
+        bgColor: 'rgba(252, 239, 232, 0.7)',
+        brColor: 'rgb(246, 207, 187)',
+        mainColor: '#00ED64',
+        darkMainColor: '#ED6E00',
+        darkBGColor: '#241E1A',
+        darkBRColor: '#32012F'
+    },
+    {
+        id: 32,
+        bgColor: 'rgba(252, 239, 232, 0.7)',
+        brColor: 'rgb(246, 207, 187)',
+        mainColor: '#00ED64',
+        darkMainColor: '#DBAFA0',
+        darkBGColor: '#241E1A',
+        darkBRColor: '#49243E'
+    },
+    {
+        id: 33,
+        bgColor: 'rgba(252, 239, 232, 0.7)',
+        brColor: 'rgb(246, 207, 187)',
+        mainColor: '#00ED64',
+        darkMainColor: '#3DC2EC',
+        darkBGColor: '#241E1A',
+        darkBRColor: '#402E7A'
+    },
 ];
 
 
