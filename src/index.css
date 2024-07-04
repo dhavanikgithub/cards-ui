@@ -1,0 +1,157 @@
+/* General Styles */
+* {
+  box-sizing: border-box;
+}
+
+/* Main Container */
+.main {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main.dark {
+  background-color: #121212;
+}
+
+.main.dark .card-title,
+body.dark .support a {
+  color: #fff;
+}
+
+.main.dark .checkbox-label {
+  background-color: #fff;
+}
+
+.main.dark .button {
+  color: #fff;
+}
+
+.main.dark .checkbox:checked + .checkbox-label .ball {
+  background-color: #121212;
+}
+
+.app {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  justify-content: center;
+  height: 100%;
+  flex-wrap: wrap;
+}
+
+/* Font Weights */
+.fw-100 { font-weight: 100; }
+.fw-200 { font-weight: 200; }
+.fw-300 { font-weight: 300; }
+.fw-400 { font-weight: 400; }
+.fw-500 { font-weight: 500; }
+.fw-600 { font-weight: 600; }
+.fw-700 { font-weight: 700; }
+.fw-800 { font-weight: 800; }
+.fw-900 { font-weight: 900; }
+
+/* Font Families */
+.ff-Outfit {
+  font-family: "Outfit", sans-serif;
+}
+
+.ff-Manrope {
+  font-family: "Manrope", "Manrope Placeholder", sans-serif;
+}
+
+/* Font Style */
+.fs-normal {
+  font-style: normal;
+}
+
+/* Container Styles */
+.container {
+  border-radius: 12px;
+  padding: 20px 40px;
+  max-width: 500px;
+  text-align: left;
+  animation: fadeIn 2s ease-in-out;
+  margin: 5px;
+}
+
+/* Button Styles */
+.button {
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-br-color {
+  border: 1px solid rgba(62, 63, 89, 0.12);
+}
+
+/* Content Styles */
+.content .card-title {
+  color: #212353;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.content p {
+  color: #9c9ab3;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+/* Keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Checkbox Styles */
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.checkbox-label {
+  background-color: #111;
+  width: 50px;
+  height: 26px;
+  border-radius: 50px;
+  position: relative;
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.checkbox-label .ball {
+  background-color: #fff;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .checkbox-label .ball {
+  transform: translateX(24px);
+}
+
+/* Icon Styles */
+.fa-moon {
+  color: #f1c40f;
+}
+
+.fa-sun {
+  color: #f39c12;
+}
