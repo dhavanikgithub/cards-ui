@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 const Card2 = ({ id, linerGradientStartColor, linerGradientEndColor, mainColor, contentTextColor, titleTextColor }) => {
     return (
-        <div className={`container`} style={{ background: `linear-gradient(to top, ${linerGradientStartColor}, ${linerGradientEndColor})`, boxShadow: 'rgba(0, 0, 0, 0.10) 0px 20px 40px' }}>
+        <div className={`container`} style={{ background: `linear-gradient(to top, ${linerGradientStartColor}, ${linerGradientEndColor})`,  }}>
             <div className="content">
                 <h1 className="ff-Outfit fw-600 fs-normal" style={{ color: `${titleTextColor}` }}>{id} AI image enhancer</h1>
                 <p className="ff-Manrope fs-normal fw-400" style={{ color: `${contentTextColor}` }}>
