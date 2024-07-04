@@ -134,78 +134,78 @@ const cardsData2 = [
     },
     {
         id: 20,
-        brColor: 'rgb(241, 199, 192)',
-        mainColor: '#dd7d6f',
+        brColor: '#FFE9D0',
+        mainColor: '#B1AFFF',
         darkMainColor: '#dd7d6f',
         darkBRColor: '#003130'
     },
     {
         id: 21,
-        brColor: 'rgb(186, 247, 243)',
-        mainColor: '#61eae4',
+        brColor: '#F6E6CB',
+        mainColor: '#B6C7AA',
         darkMainColor: '#61EAE4',
         darkBRColor: '#003130'
     },
     {
         id: 22,
-        brColor: 'rgb(230, 218, 204)',
-        mainColor: '#c6a986',
+        brColor: '',
+        mainColor: '',
         darkMainColor: '#C6A986',
         darkBRColor: '#3C3429'
     },
     {
         id: 23,
-        brColor: 'rgb(179, 240, 255)',
-        mainColor: '#4dddff',
+        brColor: '',
+        mainColor: '',
         darkMainColor: '#4DDDFF',
         darkBRColor: '#013542'
     },
     {
         id: 24,
-        brColor: 'rgb(179, 217, 255)',
-        mainColor: '#4da6ff',
+        brColor: '',
+        mainColor: '',
         darkMainColor: '#5EA2FB',
         darkBRColor: '#123F5D'
     },
     {
         id: 25,
-        brColor: 'rgb(191, 243, 219)',
-        mainColor: '#69e2a9',
+        brColor: '',
+        mainColor: '',
         darkMainColor: '#69E2A9',
         darkBRColor: '#013423'
     },
     {
         id: 26,
-        brColor: 'rgb(243, 249, 184)',
-        mainColor: '#e4f15a',
+        brColor: '',
+        mainColor: '',
         darkMainColor: '#E4F15A',
         darkBRColor: '#202600'
     },
     {
         id: 27,
-        brColor: 'rgb(203, 231, 203)',
-        mainColor: '#86c686',
+        brColor: '',
+        mainColor: '',
         darkMainColor: '#86C686',
         darkBRColor: '#213722'
     },
     {
         id: 28,
-        brColor: 'rgb(219, 232, 201)',
-        mainColor: '#adc883',
+        brColor: '',
+        mainColor: '',
         darkMainColor: '#ADC883',
         darkBRColor: '#28331B'
     },
     {
         id: 29,
-        brColor: 'rgb(246, 207, 187)',
-        mainColor: '#ea9161',
+        brColor: '',
+        mainColor: '',
         darkMainColor: '#EA9161',
         darkBRColor: '#4E3223'
     },
     {
         id: 30,
-        brColor: 'rgb(246, 207, 187)',
-        mainColor: '#00ED64',
+        brColor: '',
+        mainColor: '',
         darkMainColor: '#00ED64',
         darkBRColor: '#023430'
     },

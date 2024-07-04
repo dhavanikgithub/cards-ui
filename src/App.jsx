@@ -59,7 +59,7 @@ const App = () => {
               />
             )
           }
-          if(index < 19){
+          if(index < 21){
             return (
               <Card2
                 key={index}
