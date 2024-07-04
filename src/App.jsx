@@ -10,7 +10,7 @@ const App = () => {
 
   return (
     <div className={'main ' + (isDark ? 'dark' : '')}>
-      <div>
+      <div className='theme-mode-container'>
         <input type="checkbox" className="checkbox" id="checkbox" onChange={() => setIsDark(!isDark)} />
         <label for="checkbox" className='checkbox-label'>
           <i className="fas fa-moon"></i>
