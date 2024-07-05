@@ -1756,6 +1756,13 @@ const cardsData2 = [
         darkMainColor: "#50E3C2",
         darkBRColor: "#432160"
     },
+    {
+        id: 256,
+        brColor: "",
+        mainColor: "",
+        darkMainColor: "#FFCED1",
+        darkBRColor: "#3D3324"
+    },
 ];
 
 

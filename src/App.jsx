@@ -21,10 +21,10 @@ const App = () => {
           <span className="ball"></span>
         </label>
       </div>
-      <div class="tab">
-        <button class="tablinks ff-Outfit fw-400" onClick={() => setTab(0)}>Outline</button>
-        <button class="tablinks ff-Outfit fw-400" onClick={() => setTab(1)}>Gradient</button>
-        <button class="tablinks ff-Outfit fw-400" onClick={() => setTab(2)}>Fill</button>
+      <div className="tab">
+        <button className="tablinks ff-Outfit fw-400" onClick={() => setTab(0)}>Outline</button>
+        <button className="tablinks ff-Outfit fw-400" onClick={() => setTab(1)}>Gradient</button>
+        <button className="tablinks ff-Outfit fw-400" onClick={() => setTab(2)}>Fill</button>
       </div>
       <div className="app">
 
