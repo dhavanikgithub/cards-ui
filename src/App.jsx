@@ -12,7 +12,7 @@ const App = () => {
     <div className={'main ' + (isDark ? 'dark' : '')}>
       <div className='theme-mode-container'>
         <input type="checkbox" className="checkbox" id="checkbox" onChange={() => setIsDark(!isDark)} />
-        <label for="checkbox" className='checkbox-label'>
+        <label htmlFor="checkbox" className='checkbox-label'>
           <i className="fas fa-moon"></i>
           <i className="fas fa-sun"></i>
           <span className="ball"></span>
@@ -56,10 +56,11 @@ const App = () => {
                 mainColor={card.darkMainColor}
                 contentTextColor='white'
                 titleTextColor={card.darkMainColor}
+                isDark={isDark}
               />
             )
           }
-          if(index < 21){
+          if(index < 39){
             return (
               <Card2
                 key={index}
@@ -69,6 +70,7 @@ const App = () => {
                 mainColor={card.mainColor}
                 contentTextColor='black'
                 titleTextColor={card.mainColor}
+                isDark={isDark}
               />
             )
           }

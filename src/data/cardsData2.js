@@ -58,28 +58,28 @@ const cardsData2 = [
     { 
         id: 9,
         brColor: 'rgb(241, 199, 192)', 
-        mainColor: '#dd7d6f', 
+        mainColor: '#d35745', 
         darkMainColor: '#DD7D6F',
         darkBRColor: '#553530' 
     },
     {
         id: 10,
         brColor: 'rgb(186, 247, 243)',
-        mainColor: '#61eae4',
+        mainColor: '#1bcbc3',
         darkMainColor: '#61EAE4',
         darkBRColor: '#3B4F4D'
     },
     {
         id: 11,
         brColor: 'rgb(230, 218, 204)',
-        mainColor: '#c6a986',
+        mainColor: '#9c7749',
         darkMainColor: '#C6A986',
         darkBRColor: '#3E3A36'
     },
     {
         id: 12,
         brColor: 'rgb(179, 240, 255)',
-        mainColor: '#4dddff',
+        mainColor: '#00bae6',
         darkMainColor: '#4DDDFF',
         darkBRColor: '#3D5257'
     },
@@ -93,7 +93,7 @@ const cardsData2 = [
     {
         id: 14,
         brColor: 'rgb(191, 243, 219)',
-        mainColor: '#69e2a9',
+        mainColor: '#25c077',
         darkMainColor: '#69E2A9',
         darkBRColor: '#3B4B43'
     },
@@ -121,154 +121,154 @@ const cardsData2 = [
     {
         id: 18,
         brColor: 'rgb(219, 232, 201)',
-        mainColor: '#adc883',
+        mainColor: '#617c37',
         darkMainColor: '#ADC883',
         darkBRColor: '#3C4037'
     },
     {
         id: 19,
         brColor: 'rgb(246, 207, 187)',
-        mainColor: '#ea9161',
+        mainColor: '#e47234',
         darkMainColor: '#EA9161',
         darkBRColor: '#4E413B'
     },
     {
         id: 20,
         brColor: '#FFE9D0',
-        mainColor: '#B1AFFF',
+        mainColor: '#8280ff',
         darkMainColor: '#dd7d6f',
         darkBRColor: '#003130'
     },
     {
         id: 21,
         brColor: '#F6E6CB',
-        mainColor: '#B6C7AA',
+        mainColor: '#6f8a5b',
         darkMainColor: '#61EAE4',
         darkBRColor: '#003130'
     },
     {
         id: 22,
-        brColor: '',
-        mainColor: '',
+        brColor: '#95D2B3',
+        mainColor: '#3a786c',
         darkMainColor: '#C6A986',
         darkBRColor: '#3C3429'
     },
     {
         id: 23,
-        brColor: '',
-        mainColor: '',
+        brColor: '#FEFFD2',
+        mainColor: '#FF7D29',
         darkMainColor: '#4DDDFF',
         darkBRColor: '#013542'
     },
     {
         id: 24,
-        brColor: '',
-        mainColor: '',
+        brColor: '#FFF455',
+        mainColor: '#007F73',
         darkMainColor: '#5EA2FB',
         darkBRColor: '#123F5D'
     },
     {
         id: 25,
-        brColor: '',
-        mainColor: '',
+        brColor: '#e9e5ff',
+        mainColor: '#211951',
         darkMainColor: '#69E2A9',
         darkBRColor: '#013423'
     },
     {
         id: 26,
-        brColor: '',
-        mainColor: '',
+        brColor: '#F1F8E8',
+        mainColor: '#55AD9B',
         darkMainColor: '#E4F15A',
         darkBRColor: '#202600'
     },
     {
         id: 27,
-        brColor: '',
-        mainColor: '',
+        brColor: '#F0F0F0',
+        mainColor: '#C6B6A2',
         darkMainColor: '#86C686',
         darkBRColor: '#213722'
     },
     {
         id: 28,
-        brColor: '',
-        mainColor: '',
+        brColor: '#FEEFAD',
+        mainColor: '#03AED2',
         darkMainColor: '#ADC883',
         darkBRColor: '#28331B'
     },
     {
         id: 29,
-        brColor: '',
-        mainColor: '',
+        brColor: '#FFF3C7',
+        mainColor: '#F7418F',
         darkMainColor: '#EA9161',
         darkBRColor: '#4E3223'
     },
     {
         id: 30,
-        brColor: '',
-        mainColor: '',
+        brColor: '#FFFBF5',
+        mainColor: '#7743DB',
         darkMainColor: '#00ED64',
         darkBRColor: '#023430'
     },
     {
         id: 31,
-        brColor: '',
-        mainColor: '',
+        brColor: '#C2DED1',
+        mainColor: '#354259',
         darkMainColor: '#ED6E00',
         darkBRColor: '#32012F'
     },
     {
         id: 32,
-        brColor: '',
-        mainColor: '',
+        brColor: '#F9D689',
+        mainColor: '#973131',
         darkMainColor: '#DBAFA0',
         darkBRColor: '#49243E'
     },
     {
         id: 33,
-        brColor: '',
-        mainColor: '',
+        brColor: '#F8F4E1',
+        mainColor: '#543310',
         darkMainColor: '#3DC2EC',
         darkBRColor: '#402E7A'
     },
     {
         id: 34,
-        brColor: '',
-        mainColor: '',
+        brColor: '#7ABA78',
+        mainColor: '#0A6847',
         darkMainColor: '#529C98',
         darkBRColor: '#23074D'
     },
     {
         id: 35,
-        brColor: '',
-        mainColor: '',
+        brColor: '#F8D082',
+        mainColor: '#640D6B',
         darkMainColor: '#B1472E',
         darkBRColor: '#0C0C0C'
     },
     {
         id: 36,
-        brColor: '',
-        mainColor: '',
+        brColor: '#F3CA52',
+        mainColor: '#0A6847',
         darkMainColor: '#fff',
         darkBRColor: '#FF204E'
     },
     {
         id: 37,
-        brColor: '',
-        mainColor: '',
+        brColor: '#C0D6E8',
+        mainColor: '#A34343',
         darkMainColor: '#EEE4B1',
         darkBRColor: '#430A5D'
     },
     {
         id: 38,
-        brColor: '',
-        mainColor: '',
+        brColor: '#DBAFA0',
+        mainColor: '#5A3551',
         darkMainColor: '#D9D9D9',
         darkBRColor: '#21272F'
     },
     {
         id: 39,
-        brColor: '',
-        mainColor: '',
+        brColor: '#E8D8C4',
+        mainColor: '#561C24',
         darkMainColor: '#779E81',
         darkBRColor: '#35374B'
     },
@@ -1452,7 +1452,7 @@ const cardsData2 = [
         id: 210,
         brColor: "",
         mainColor: "",
-        darkMainColor: "#311D3F",
+        darkMainColor: "#fff",
         darkBRColor: "#E23E57"
     },
     {
@@ -1564,7 +1564,7 @@ const cardsData2 = [
         id: 227,
         brColor: "",
         mainColor: "",
-        darkMainColor: "#F30A49",
+        darkMainColor: "#fff",
         darkBRColor: "#04879C"
     },
     {
@@ -1587,7 +1587,175 @@ const cardsData2 = [
         mainColor: "",
         darkMainColor: "#220E24",
         darkBRColor: "#639CD9"
-    }
+    },
+    {
+        id: 232,
+        brColor: "",
+        mainColor: "",
+        darkMainColor: "#F3FF90",
+        darkBRColor: "#059212"
+    },
+    {
+        id: 233,
+        brColor: "",
+        mainColor: "",
+        darkMainColor: "#FEDA00",
+        darkBRColor: "#26355D"
+    },
+    {
+        id: 234,
+        brColor: "",
+        mainColor: "",
+        darkMainColor: "#FFFF80",
+        darkBRColor: "#FF0080"
+    },
+    {
+        id: 235,
+        brColor: "",
+        mainColor: "",
+        darkMainColor: "#fff",
+        darkBRColor: "#FF70AB"
+    },
+    {
+        id: 236,
+        brColor: "",
+        mainColor: "",
+        darkMainColor: "#FF204E",
+        darkBRColor: "#00224D"
+    },
+    {
+        id: 237,
+        brColor: "",
+        mainColor: "",
+        darkMainColor: "#FB8B24",
+        darkBRColor: "#5F0F40"
+    },
+    {
+        id: 238,
+        brColor: "",
+        mainColor: "",
+        darkMainColor: "#35A29F",
+        darkBRColor: "#071952"
+    },
+    {
+        id: 239,
+        brColor: "",
+        mainColor: "",
+        darkMainColor: "#DC58D5",
+        darkBRColor: "#40128B"
+    },
+    {
+        id: 240,
+        brColor: "",
+        mainColor: "",
+        darkMainColor: "#FFD93D",
+        darkBRColor: "#4F200D"
+    },
+    {
+        id: 241,
+        brColor: "",
+        mainColor: "",
+        darkMainColor: "#FF0000",
+        darkBRColor: "#3B0000"
+    },
+    {
+        id: 242,
+        brColor: "",
+        mainColor: "",
+        darkMainColor: "#FF449F",
+        darkBRColor: "#005F99"
+    },
+    {
+        id: 243,
+        brColor: "",
+        mainColor: "",
+        darkMainColor: "#D1D2B7",
+        darkBRColor: "#52734D"
+    },
+    {
+        id: 244,
+        brColor: "",
+        mainColor: "",
+        darkMainColor: "#A49FD4",
+        darkBRColor: "#440A67"
+    },
+    {
+        id: 245,
+        brColor: "",
+        mainColor: "",
+        darkMainColor: "#F1F1F1",
+        darkBRColor: "#FDB827"
+    },
+    {
+        id: 246,
+        brColor: "",
+        mainColor: "",
+        darkMainColor: "#FF6363",
+        darkBRColor: "#000272"
+    },
+    {
+        id: 247,
+        brColor: "",
+        mainColor: "",
+        darkMainColor: "#08FFC8",
+        darkBRColor: "#204969"
+    },
+    {
+        id: 248,
+        brColor: "",
+        mainColor: "",
+        darkMainColor: "#FF4D00",
+        darkBRColor: "#443737"
+    },
+    {
+        id: 249,
+        brColor: "",
+        mainColor: "",
+        darkMainColor: "#E2B235",
+        darkBRColor: "#AB3417"
+    },
+    {
+        id: 250,
+        brColor: "",
+        mainColor: "",
+        darkMainColor: "#E8FCF6",
+        darkBRColor: "#08085E"
+    },
+    {
+        id: 251,
+        brColor: "",
+        mainColor: "",
+        darkMainColor: "#17B978",
+        darkBRColor: "#071A52"
+    },
+    {
+        id: 252,
+        brColor: "",
+        mainColor: "",
+        darkMainColor: "#ECFEFF",
+        darkBRColor: "#128494"
+    },
+    {
+        id: 253,
+        brColor: "",
+        mainColor: "",
+        darkMainColor: "#FF7A5A",
+        darkBRColor: "#432160"
+    },
+    {
+        id: 254,
+        brColor: "",
+        mainColor: "",
+        darkMainColor: "#40EACF",
+        darkBRColor: "#4F4890"
+    },
+    {
+        id: 255,
+        brColor: "",
+        mainColor: "",
+        darkMainColor: "#50E3C2",
+        darkBRColor: "#432160"
+    },
 ];
 
 
