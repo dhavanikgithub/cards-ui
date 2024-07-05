@@ -3,10 +3,13 @@ import Card from './components/Card';
 import Card2 from './components/Card2';
 import cardsData2 from './data/cardsData2';
 import cardsData from './data/cardsData';
+import cardsData3 from './data/cardsData3';
+import Card3 from './components/Card3';
 
 
 const App = () => {
   const [isDark, setIsDark] = React.useState(false);
+  const [tab,setTab] = React.useState(0);
 
   return (
     <div className={'main ' + (isDark ? 'dark' : '')}>
@@ -18,9 +21,14 @@ const App = () => {
           <span className="ball"></span>
         </label>
       </div>
+      <div class="tab">
+        <button class="tablinks ff-Outfit fw-400" onClick={() => setTab(0)}>Outline</button>
+        <button class="tablinks ff-Outfit fw-400" onClick={() => setTab(1)}>Gradient</button>
+        <button class="tablinks ff-Outfit fw-400" onClick={() => setTab(2)}>Fill</button>
+      </div>
       <div className="app">
 
-        {cardsData.map((card, index) => {
+        {tab===0 && cardsData.map((card, index) => {
           if (isDark) {
             return (
               <Card
@@ -45,7 +53,7 @@ const App = () => {
           )
         })}
 
-        {cardsData2.map((card, index) => {
+        {tab===1 && cardsData2.map((card, index) => {
           if (isDark) {
             return (
               <Card2
@@ -60,7 +68,7 @@ const App = () => {
               />
             )
           }
-          if(index < 39){
+          if (index < 39) {
             return (
               <Card2
                 key={index}
@@ -74,6 +82,31 @@ const App = () => {
               />
             )
           }
+        })}
+
+        {tab===2 && cardsData3.map((card, index) => {
+          if (isDark) {
+            return (
+              <Card3
+                key={index}
+                id={card.id}
+                bgColor={card.darkBGColor}
+                contentTextColor='white'
+                titleTextColor={card.darkTitleTextColor}
+                btnBGColor='black'
+              />
+            )
+          }
+          return (
+            <Card3
+              key={index}
+              id={card.id}
+              bgColor={card.bgColor}
+              contentTextColor='#21272A'
+              titleTextColor={card.titleTextColor}
+              btnBGColor='white'
+            />
+          )
         })}
       </div>
     </div>

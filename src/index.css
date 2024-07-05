@@ -42,6 +42,7 @@ body.dark .support a {
   align-content: flex-start;
   justify-content: center;
   height: 100%;
+  margin-top: 10px;
   flex-wrap: wrap;
 }
 
@@ -167,4 +168,44 @@ body.dark .support a {
 
 .fa-sun {
   color: #f39c12;
+}
+
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: none;
+  background-color: none;
+  cursor: pointer;
+  margin-top: 40px;
+  
+}
+.main.dark .tab button{
+  color: white;
+}
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  
 }
