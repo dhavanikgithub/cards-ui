@@ -175,6 +175,13 @@ const cardsData3 = [
         darkBGColor: '#2B2823', 
         darkTitleTextColor: '#FBFDFF', 
     },
+    { 
+        id: 26, 
+        bgColor: '#EEF5FF',  
+        titleTextColor: '#176B87', 
+        darkBGColor: '#1E242B', 
+        darkTitleTextColor: '#6AB1CF', 
+    },
     
 ];
 
